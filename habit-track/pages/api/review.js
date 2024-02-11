@@ -3,7 +3,7 @@ import fs from 'fs';
 export default function handler(req, res) {
     try {
       // Async logic here
-      const line = `${req.body.relevance},  ${req.body.doable}, ${req.body.habit}, ${req.body.advice}`
+      const line = `${req.body.relevance},  ${req.body.doable}, ${req.body.habit},${req.body.detail}, ${req.body.advice}`
       writeToFile('/results/results.csv', line)
       res.status(200).json();
     } catch (error) {

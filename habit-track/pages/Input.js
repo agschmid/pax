@@ -69,7 +69,7 @@ export default function Input() {
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ habit: task, advice: advice, relevance: relevance, doable: doable }),
+      body: JSON.stringify({ habit: task, advice: advice, relevance: relevance, doable: doable, detail: detail }),
     });
   };
 
