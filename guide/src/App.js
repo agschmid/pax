@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import SoundButton from './SoundButton';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <SoundButton sound = 'sound.mp3' icon='walking.svg' text='Look Left'></SoundButton>
+      <SoundButton sound = 'sound.mp3' icon='walking.svg' text='Walk Forward'></SoundButton>
+      <SoundButton sound = 'sound.mp3' icon='walking.svg' text='Look Right'></SoundButton>
+      <SoundButton sound = 'sound.mp3' icon='walking.svg' text='Walk'></SoundButton>
+      <SoundButton sound = 'sound.mp3' icon='walking.svg' text='Stop'></SoundButton>
+      <SoundButton sound = 'sound.mp3' icon='walking.svg' text='Walk'></SoundButton>
+      <SoundButton sound = 'sound.mp3' icon='walking.svg' text='Walk'></SoundButton>
+      <SoundButton sound = 'sound.mp3' icon='walking.svg' text='Walk'></SoundButton>
+      <SoundButton sound = 'sound.mp3' icon='walking.svg' text='Walk'></SoundButton>
     </div>
   );
 }
