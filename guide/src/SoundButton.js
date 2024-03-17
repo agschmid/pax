@@ -9,7 +9,7 @@ export default function SoundButton(props){
 
     return (
         <div className='button' onClick={() => sound.play()}>
-            <img src={`./icons/${props.icon}`} height={"70px"}/>
+            <img src={`./icons/${props.icon}`} height={"70px"} alt='icon'/>
             <span>{props.text}</span>
         </div>
     )

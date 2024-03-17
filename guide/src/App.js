@@ -1,5 +1,7 @@
 import './App.css';
 import SoundButton from './SoundButton';
+import Slider from './Slider';
+
 
 function App() {
   return (
@@ -14,6 +16,10 @@ function App() {
       </div>
       <div className='container'>
         <SoundButton sound = 'bad.mp3' icon='bad.svg' text='Fail'></SoundButton>
+      </div>
+      <div className='container' style={{gap: '30px'}}>
+        <Slider sound='wind.mp3' icon='wind.svg' text='Wind' volume='1'></Slider>
+        <Slider sound='ping.mp3' icon='ping.svg' text='Ping' volume='0.3'></Slider>
       </div>
     </>
   );

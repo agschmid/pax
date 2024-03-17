@@ -6,11 +6,11 @@
 
 body{
   background-color: #1C274C;
-  height: 100%;
+  height: calc(100% - 40px);
 }
 
 html{
-  height: 100%;
+  height: calc(100% - 40px);
 }
 
 #root{
