@@ -1,6 +1,6 @@
 import './App.css';
 import SoundButton from './SoundButton';
-import Slider from './Slider';
+import Rotate from './Rotate';
 
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
         <SoundButton sound = 'bad.mp3' icon='bad.svg' text='Fail'></SoundButton>
       </div>
       <div className='container' style={{gap: '30px'}}>
-        <Slider sound='wind.mp3' icon='wind.svg' text='Wind' volume='1'></Slider>
-        <Slider sound='ping.mp3' icon='ping.svg' text='Ping' volume='0.3'></Slider>
+        <Rotate sound='wind.mp3' icon='wind.svg' text='Wind' volume='0.3'></Rotate>
+        <Rotate sound='ping.mp3' icon='ping.svg' text='Ping' volume='0.3'></Rotate>
       </div>
     </>
   );
