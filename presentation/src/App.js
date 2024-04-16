@@ -16,10 +16,10 @@ function App() {
 
   return (
     <div className="App" onClick={handleBackgroundClick}>
-      <img src="/background.jpg" alt="Background" className="background-image" />
+      <img src="./background.jpg" alt="Background" className="background-image" />
       <div className="popup-container" style={{ transform: showImageDiv ? 'translateY(0%)' : 'translateY(100%)' }} onClick={handleImageDivClick}>
         <div className="popup-content">
-          <img src="/popup.jpg" alt="Overlay" className="popup-image" />
+          <img src="./popup.jpg" alt="Overlay" className="popup-image" />
         </div>
       </div>
       {showIframe && (
